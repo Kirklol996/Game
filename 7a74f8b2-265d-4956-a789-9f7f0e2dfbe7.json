@@ -1,0 +1,1159 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 209,
+    "major": 5,
+    "minor": 4,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.topdownrpg",
+    "pixelsRounding": false,
+    "projectUuid": "9915b2f6-11c6-49ae-85ac-8fffa35ad8a7",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "top-down-rpg",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Amusing Yoke (Top down rpg)",
+    "description": "A monster tamer style top down rpg game example. Including top down movement, scrolling text during chat, camera controls, and a simple battle sequence.",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "thumbnail.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [
+      "rpg"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharDown4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharDown4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACgarRight4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACgarRight4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharLeft4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharLeft4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ACharUp4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ACharUp4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dock1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dock1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tree2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bush1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "House2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterCorner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterCorner.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grass1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterEdgeRight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterEdgeRight.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterEdgeUp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterEdgeUp.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Water1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Water1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RoadEdge1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RoadEdge1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy_Spawn_Location.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy_Spawn_Location.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/8BitOperatorPlus8Regular_Edited.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Border2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Attack.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.1,\\\"sustainPunch\\\":50,\\\"decay\\\":0.35000000000000003,\\\"tremoloDepth\\\":19,\\\"tremoloFrequency\\\":27,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-4800,\\\"frequencyDeltaSweep\\\":-4100,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Attack\"}}",
+        "name": "Attack.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Talk.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.03461516912647311,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":0,\\\"decay\\\":0.2,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":399.07212207604067,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":0.8611028349862437,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":370,\\\"vibratoFrequency\\\":572,\\\"squareDuty\\\":10,\\\"squareDutySweep\\\":-30,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Talk\"}}",
+        "name": "Talk.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/HoverSound.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.011876134915122183,\\\"sustain\\\":0.01,\\\"sustainPunch\\\":0,\\\"decay\\\":0.02,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1012.4426242250636,\\\"frequencySweep\\\":9999.999999999698,\\\"frequencyDeltaSweep\\\":995.5111583241919,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.71,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":70,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"HoverSound\"}}",
+        "name": "HoverSound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Road1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Road1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WaterCorner2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "WaterCorner2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creature_Player.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creature_Player.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creature_Enemy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creature_Enemy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/thumbnail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thumbnail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded dark joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/dd6e3c2d11ba02bd5a052cd47908e851b656d0fb492b52006afa4843e597d0cc_Shaded dark joystick border.png",
+          "name": "Shaded dark joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shaded dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shaded dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/13d8225be69d0f11b6de965cac0d840e7e63e2510a638af89ae42b052caa2460_Shaded dark joystick thumb.png",
+          "name": "Shaded dark joystick thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Target round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Target round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/abb64f9b109c792191a2f50aee5fb4703bdf2392d821e771303ee07dfeb85166_Target round button.png",
+          "name": "Target round button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Empty UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
+          "name": "tiled_Tiled Empty UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+          "name": "tiled_Tiled Filler UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Metal Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Metal Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/f8e5d88f8b377f182d5d42adf0bf9bc5f94034ac24c410f07ba27c46cda841c3_Metal Bar Border.png",
+          "name": "Metal Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/3eee053defc4f2944d72ef78b5aebbac31634202712157a3630b84fe08d79cbb_Pixel Red Fill Bar.png",
+          "name": "Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pixel Yellow Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel Yellow Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/62f87cd20640fba9413cea576a648c6995a6d0e0026ba0adadb937ab3adec1b1_Pixel Yellow Fill Bar.png",
+          "name": "Pixel Yellow Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grapes_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grapes_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/9391005e7d687386681c0909291b3ed5a5a38d51046d8990decdb3985c69dd8b_Grapes_No Shadow.png",
+          "name": "Grapes_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grapes_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grapes_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/5fb8680b70d2ae694d3285eeb8a0064c06b2f39692c9768c89e651f98dda76cb_Grapes_Shadow.png",
+          "name": "Grapes_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sweetcorn_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sweetcorn_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/202efaf902c1d1492ab526d0fa6fbba2591b2a01e29a3746d9625be0b7324c9d_Sweetcorn_No Shadow.png",
+          "name": "Sweetcorn_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sweetcorn_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sweetcorn_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/d94467bc40aa6a9ef6522fb2bcb4eb0a651d19eac70635ba41a691dd19f4dc5d_Sweetcorn_Shadow.png",
+          "name": "Sweetcorn_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tomato_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tomato_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/744250e7b79776a4ded0fba0d2682481db897cbd2f5c6aca438467be196a3794_Tomato_No Shadow.png",
+          "name": "Tomato_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tomato_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tomato_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/40cc10bf45e90ce8355b20aed5c5ae832402982110d9bbf5a48e98f8d89be657_Tomato_Shadow.png",
+          "name": "Tomato_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pear_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pear_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/f861aa10520781991440f52de3d233620ebd01750221116e6a24881c8329a354_Pear_No Shadow.png",
+          "name": "Pear_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pear_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pear_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Food/723b92d0e2addd466e0ad5da1490e1ad7b58c699e41ca58ab389c92401628a7f_Pear_Shadow.png",
+          "name": "Pear_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Crouch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Crouch.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/9c1851f6928ea3038f327ebc4979c0665f8deec54f36321529802d81fcabef99_Dino Mort_Crouch.png",
+          "name": "Dino Mort_Crouch.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/817711599b5b70130ff0994d4329c757d9894e5cb4d406189cd928208d188e13_Dino Mort_Hurt_1.png",
+          "name": "Dino Mort_Hurt_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Hurt_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/6d1ed60b9aa070dea0ba241ffb08d7f64f5c7feac8afe72bb52a73fe12dbbb9d_Dino Mort_Hurt_2.png",
+          "name": "Dino Mort_Hurt_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Hurt_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Hurt_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/376ec93f22135845a7321bfef20d75d7d9fb9c37af4601edcae556814d748231_Dino Mort_Hurt_3.png",
+          "name": "Dino Mort_Hurt_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Hurt_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Hurt_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/b8755556d5dfff50ad2eeacd4ed24c1cbcd044a5e2baf60a5354cd7072c1dbc3_Dino Mort_Hurt_4.png",
+          "name": "Dino Mort_Hurt_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/817711599b5b70130ff0994d4329c757d9894e5cb4d406189cd928208d188e13_Dino Mort_Idle_1.png",
+          "name": "Dino Mort_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/fc8ae8e28bebf98703bb6ff546a7db32bb50d3d0518f1c6bf0a68287ff58ddb2_Dino Mort_Idle_2.png",
+          "name": "Dino Mort_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/d77f1995f3f9fca42cd4a7a3bad137f709886cb65f17126fd259642db0bdac7c_Dino Mort_Idle_3.png",
+          "name": "Dino Mort_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/817711599b5b70130ff0994d4329c757d9894e5cb4d406189cd928208d188e13_Dino Mort_Idle_4.png",
+          "name": "Dino Mort_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Kick_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Kick_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/817711599b5b70130ff0994d4329c757d9894e5cb4d406189cd928208d188e13_Dino Mort_Kick_1.png",
+          "name": "Dino Mort_Kick_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Kick_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Kick_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/1ad830a82cd7ce4e32055f44b9804c337a0358830d60e03d92010024fe484519_Dino Mort_Kick_2.png",
+          "name": "Dino Mort_Kick_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Kick_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Kick_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/2fc01d656b8f5a382f7ce4ec5b12c45facc8a8d55f03eeee3cf0b556d3c5d2e7_Dino Mort_Kick_3.png",
+          "name": "Dino Mort_Kick_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Move_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Move_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/89275a322de93f3973b801d47da481a261d3a505d9039cb090a6d93f7bc76c53_Dino Mort_Move_1.png",
+          "name": "Dino Mort_Move_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Move_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Move_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/1e64115026383fc1654f9f0fa7f339e71d51bcd099f7336013708f594496347b_Dino Mort_Move_2.png",
+          "name": "Dino Mort_Move_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Move_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Move_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/c5482d5f5e51e978b91b8edbc9343c0d7e8f99598c60df49720f88d8227c347a_Dino Mort_Move_3.png",
+          "name": "Dino Mort_Move_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Move_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Move_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/28fce1ffcc31e85d2b79a6c2534aea05903c90a6c321f74c2d2f7d44e82e7f89_Dino Mort_Move_4.png",
+          "name": "Dino Mort_Move_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Move_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Move_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/621858554348527ab61d9fbfaae18e38642d47fe752afc052ffb35fab3421b6e_Dino Mort_Move_5.png",
+          "name": "Dino Mort_Move_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Move_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Move_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/5a127c5493da78ce1c7678244bdf3c529f7b4b4bbc8f477f271f7fc72b104eab_Dino Mort_Move_6.png",
+          "name": "Dino Mort_Move_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Sneak_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Sneak_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/68ddb42eeaec0fbe16331a078bfff367a3acd0bd5ea3ad492f1960f6e3c90d3d_Dino Mort_Sneak_1.png",
+          "name": "Dino Mort_Sneak_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Sneak_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Sneak_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/e6ee94464b6897e28cd862d8ab3644d6d0ad43f117ba04ddf4be616db77aec54_Dino Mort_Sneak_2.png",
+          "name": "Dino Mort_Sneak_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Sneak_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Sneak_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/62cf6c0321a69b2d00c386e4cfbbe28c37a636f5aae2b81cdc1c856b78032268_Dino Mort_Sneak_3.png",
+          "name": "Dino Mort_Sneak_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Sneak_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Sneak_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/a591ffc8eef885911814c5f644bcbbd820f319a322fb522c4dbc7d7e83c506a2_Dino Mort_Sneak_4.png",
+          "name": "Dino Mort_Sneak_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Sneak_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Sneak_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/4be90b3305e09b32737ad4544ea458d8fb251a8b092964a972e18f28b8059555_Dino Mort_Sneak_5.png",
+          "name": "Dino Mort_Sneak_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dino Mort_Sneak_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dino Mort_Sneak_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/24x24 Dino Characters/1c4882da78d02e0e0a5fc64979d93d70f1800c734c6efa52a0316e80819fea7c_Dino Mort_Sneak_6.png",
+          "name": "Dino Mort_Sneak_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Burger Dish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Burger Dish.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Dishes/45799347d40ff036a744fdbd6ae82cb9730dee722e5a5aff18c559b499145053_Burger Dish.png",
+          "name": "Burger Dish.png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Timer": 1,
+          "Color": "255;255;255",
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "TextBorder",
+      "rightMargin": 16,
+      "texture": "Border.png",
+      "tiled": true,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Transition"
+      },
+      {
+        "objectName": "TextBorder"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "HealthDropTriggered",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/overworld"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/battle"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
